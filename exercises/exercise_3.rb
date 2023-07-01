@@ -8,9 +8,9 @@ puts "----------"
 # Your code goes here ...
 @store3 = Store.find_by(id: 3)
 
-@store3.destroy
+#@store3.destroy
+#Commented out line 11 in order to be able to run exercise_6
 
-#Need to re-run exercise_1 to recreate the Gastown store deleted above
 
 puts "There are #{Store.count} stores in the database."
 
